@@ -1,16 +1,18 @@
 #Leer varios datos en una sola linea
 
-a = input().split(' ')
+data = input().split(' ')
 
-#N casos
+#N casos de prueba
 
 while n:
 	n-=1
 	#Instrucciones
 
-# EOF	
+# Casos de prueba hasta EOF	
 
 while True:
-	try: #Instrucciones
+	try:
+		#Instrucciones
 	except EOFError:
 		break
+		
