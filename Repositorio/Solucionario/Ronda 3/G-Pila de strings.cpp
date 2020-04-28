@@ -13,10 +13,10 @@ int main(int argc, char *argv[])
 			pal.push(entrada);
 		}else{
 			if(!pal.empty()){
-			cout<<pal.top()<<"\n";
-			pal.pop();
+				cout<<pal.top()<<"\n";
+				pal.pop();
 			}else
-			cout<<"-\n";
+				cout<<"-\n";
 		}
 	}
 	return 0;
