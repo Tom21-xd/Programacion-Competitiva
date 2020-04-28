@@ -16,7 +16,8 @@ int main()
 				if(i%2!=0 && j%2!=0) mtz[i][j]-=3; //Verifica si es una columna y una fila impar y le resta
 			}
 		}
-		for(int i=0; i<f; i++){ //Muestra la nueva matriz
+		//Muestra la nueva matriz
+		for(int i=0; i<f; i++){ 
 			for(int j=0; j<c-1; j++){
 				cout<<mtz[i][j]<<" ";
 			}
