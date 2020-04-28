@@ -3,14 +3,14 @@ using namespace std;
 
 int main()
 {
-	int n, f;
+	int n, nP;
 	set<string> dic;
 	string str;
 	cin>>n;
 	while(n--){
 		dic.clear(); //Se vacía
-		cin>>f;
-		while(f--){
+		cin>>nP;
+		while(nP--){
 			cin>>str;
 			dic.insert(str);
 		}
