@@ -5,7 +5,7 @@ int main()
 {
 	set<string> f1;
 	int n, nP;
-	string str;
+	string str, fin;
 	cin>>n;
 	while(n--){
 		f1.clear();
@@ -18,7 +18,7 @@ int main()
 				str.erase(str.begin()+pos); //Aqui se elimina
 			f1.insert(str);
 		}
-		cin>>fin;
+		cin>>fin; //Leo la palabra FIN
 		//Muestro datos
 		for(string out : f1)
 			cout<<out<<"\n";
