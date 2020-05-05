@@ -10,9 +10,9 @@ while n:
 
 # Casos de prueba hasta EOF	
 
-while True:
-	try:
-		#Instrucciones
-	except EOFError:
-		break
+Try:
+	# lo que se lee ;v
+except:
+	break
+	#proceder a codear
 		
