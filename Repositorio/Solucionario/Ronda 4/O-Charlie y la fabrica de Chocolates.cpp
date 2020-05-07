@@ -1,4 +1,4 @@
-// tu  trabajo ;V
+//Solución 1 - Johan y Sierra
 #include<iostream>
 using namespace std;
 int main(){
@@ -11,5 +11,24 @@ int main(){
 		}
 		cout<<o<<endl;
 	}
+	return 0;
+}
+
+//Solución 2 - SneiderQuintero - Uso de pow
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+  ios_base::sync_with_stdio(false); 
+  cin.tie(0); 
+  int n;
+  long int r, a, k, aux;
+  cin>>n;
+  while(n--){
+  	cin>>r>>a>>k;
+  	a--;
+  	aux=pow(r,a);
+  	cout<<k*aux<<"\n";
+  }
 	return 0;
 }
